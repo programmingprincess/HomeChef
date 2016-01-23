@@ -13,8 +13,11 @@ import Alamofire
 class ViewController: UIViewController {
 
     @IBOutlet weak var beginButton: UIButton!
+    @IBOutlet weak var meatsButton: UIButton!
+    @IBOutlet weak var vegetablesButton: UIButton!
+    @IBOutlet weak var fruitsButton: UIButton!
+    @IBOutlet weak var pastaButton: UIButton!
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -44,6 +47,10 @@ class ViewController: UIViewController {
         }
     }
 
+    @IBAction func category_OnClick(sender: AnyObject) {
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E27e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E27e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="0du-Xv-WX7">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Food-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="HomeChef" customModuleProvider="target" sceneMemberID="viewController">
@@ -13,24 +13,134 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uOW-pe-c9y">
-                                <rect key="frame" x="109" y="375" width="103" height="36"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gMV-Eu-2SY">
+                                <rect key="frame" x="0.0" y="313" width="166" height="255"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Let's Begin!">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="20"/>
+                                <state key="normal" title="Spices" backgroundImage="spices.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="category_OnClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gCB-Ey-tEz"/>
+                                    <segue destination="FWa-2S-KhY" kind="push" id="aFt-Bs-unN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TSh-jT-Anv">
+                                <rect key="frame" x="164" y="313" width="156" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="20"/>
+                                <state key="normal" title="Pasta" backgroundImage="pasta.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="category_OnClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cd8-6u-mhK"/>
+                                    <segue destination="FWa-2S-KhY" kind="push" id="IG3-26-8wd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GcE-NH-uZE">
+                                <rect key="frame" x="164" y="64" width="156" height="249"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="20"/>
+                                <state key="normal" title="Vegetables" backgroundImage="vegetables.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="category_OnClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2FX-Vf-vVZ"/>
+                                    <segue destination="FWa-2S-KhY" kind="push" id="1gB-HE-g04"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BMP-R7-xuM">
+                                <rect key="frame" x="0.0" y="64" width="166" height="249"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="20"/>
+                                <state key="normal" title="Meats" backgroundImage="meats.jpg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="category_OnClick:" destination="vXZ-lx-hvc" eventType="touchDown" id="mtZ-48-DRW"/>
+                                    <segue destination="FWa-2S-KhY" kind="push" id="gpr-jc-vhr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uOW-pe-c9y">
+                                <rect key="frame" x="112" y="296" width="97" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="GillSans-Bold" family="Gill Sans" pointSize="20"/>
+                                <state key="normal" title="Go!">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Food" id="TUh-gd-Jpn"/>
                     <connections>
-                        <outlet property="beginButton" destination="uOW-pe-c9y" id="YxS-xk-IRi"/>
+                        <outlet property="beginButton" destination="uOW-pe-c9y" id="OUj-LE-gUW"/>
+                        <outlet property="fruitsButton" destination="gMV-Eu-2SY" id="1qC-kq-0VP"/>
+                        <outlet property="meatsButton" destination="BMP-R7-xuM" id="Tmu-ga-XwL"/>
+                        <outlet property="pastaButton" destination="TSh-jT-Anv" id="vm8-cl-KGi"/>
+                        <outlet property="vegetablesButton" destination="GcE-NH-uZE" id="Wwo-Mw-zOP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="766" y="333"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="bXL-Nf-t3s">
+            <objects>
+                <tableViewController id="FWa-2S-KhY" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="wAb-K7-Kke">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="iFp-YV-fg3">
+                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iFp-YV-fg3" id="qpN-5j-69h">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="FWa-2S-KhY" id="g2E-GT-RNn"/>
+                            <outlet property="delegate" destination="FWa-2S-KhY" id="aBb-Vv-5JI"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="4gb-Cf-npj"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WTs-7y-Ziv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1202" y="333"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fps-RG-yzu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0du-Xv-WX7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" id="Csy-Wv-UYu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="N64-b7-6xy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BjT-xx-edK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
             <point key="canvasLocation" x="234" y="333"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="meats.jpg" width="322" height="506"/>
+        <image name="pasta.jpg" width="322" height="506"/>
+        <image name="spices.jpg" width="322" height="506"/>
+        <image name="vegetables.jpg" width="322" height="506"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="gpr-jc-vhr"/>
+    </inferredMetricsTieBreakers>
 </document>

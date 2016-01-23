@@ -13,6 +13,10 @@
 		A9B425591C533EAC00BE55F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B425571C533EAC00BE55F9 /* Main.storyboard */; };
 		A9B4255B1C533EAC00BE55F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B4255A1C533EAC00BE55F9 /* Images.xcassets */; };
 		A9B4255E1C533EAC00BE55F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9B4255C1C533EAC00BE55F9 /* LaunchScreen.xib */; };
+		EC1192981C541A7B0009FB4A /* pasta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC1192951C541A7B0009FB4A /* pasta.jpg */; };
+		EC1192991C541A7B0009FB4A /* meats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC1192961C541A7B0009FB4A /* meats.jpg */; };
+		EC11929A1C541A7B0009FB4A /* spices.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC1192971C541A7B0009FB4A /* spices.jpg */; };
+		EC11929C1C541A830009FB4A /* vegetables.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC11929B1C541A830009FB4A /* vegetables.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		A9B4255A1C533EAC00BE55F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A9B4255D1C533EAC00BE55F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A9B425631C533EAC00BE55F9 /* HomeChefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeChefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1192951C541A7B0009FB4A /* pasta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pasta.jpg; sourceTree = "<group>"; };
+		EC1192961C541A7B0009FB4A /* meats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meats.jpg; sourceTree = "<group>"; };
+		EC1192971C541A7B0009FB4A /* spices.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spices.jpg; sourceTree = "<group>"; };
+		EC11929B1C541A830009FB4A /* vegetables.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetables.jpg; sourceTree = "<group>"; };
 		FAAEDEE1AFC37A3EFBDF8E07 /* Pods-HomeChef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeChef.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeChef/Pods-HomeChef.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +97,7 @@
 		A9B425501C533EAC00BE55F9 /* HomeChef */ = {
 			isa = PBXGroup;
 			children = (
+				EC11928A1C5413390009FB4A /* Images */,
 				ECFBFE171C5386FF00AB0C19 /* View Controllers */,
 				A9B425571C533EAC00BE55F9 /* Main.storyboard */,
 				A9B4255A1C533EAC00BE55F9 /* Images.xcassets */,
@@ -113,6 +122,17 @@
 				A6FB1E46E8DB2102B69B29CD /* Pods_HomeChef.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC11928A1C5413390009FB4A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EC1192951C541A7B0009FB4A /* pasta.jpg */,
+				EC1192961C541A7B0009FB4A /* meats.jpg */,
+				EC11929B1C541A830009FB4A /* vegetables.jpg */,
+				EC1192971C541A7B0009FB4A /* spices.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		ECFBFE171C5386FF00AB0C19 /* View Controllers */ = {
@@ -209,7 +229,11 @@
 			files = (
 				A9B425591C533EAC00BE55F9 /* Main.storyboard in Resources */,
 				A9B4255E1C533EAC00BE55F9 /* LaunchScreen.xib in Resources */,
+				EC1192991C541A7B0009FB4A /* meats.jpg in Resources */,
+				EC11929A1C541A7B0009FB4A /* spices.jpg in Resources */,
+				EC11929C1C541A830009FB4A /* vegetables.jpg in Resources */,
 				A9B4255B1C533EAC00BE55F9 /* Images.xcassets in Resources */,
+				EC1192981C541A7B0009FB4A /* pasta.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
