@@ -5,6 +5,7 @@
 //  Created by Jiaqi Wu on 1/23/16.
 //  Code obtained from https://github.com/AshFurrow/AFTabledCollectionView by https://ashfurrow.com/blog/putting-a-uicollectionview-in-a-uitableviewcell/
 //
+/*
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -27,3 +28,4 @@ static NSString *CollectionViewCellIdentifier = @"CollectionViewCellIdentifier";
 - (void)setCollectionViewDataSourceDelegate:(id<UICollectionViewDataSource, UICollectionViewDelegate>)dataSourceDelegate indexPath:(NSIndexPath *)indexPath;
 
 @end
+*/

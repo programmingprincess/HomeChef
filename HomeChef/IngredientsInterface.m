@@ -5,7 +5,7 @@
 //  Created by Jiaqi Wu on 1/23/16.
 //  Code obtained from https://github.com/AshFurrow/AFTabledCollectionView by https://ashfurrow.com/blog/putting-a-uicollectionview-in-a-uitableviewcell/
 //
-
+/*
 #import "IngredientsInterface.h"
 #import "IngredientsViewCell.h"
 
@@ -72,6 +72,9 @@
     return [NSString stringWithFormat:@"Section #%ld", section+1];
 }
 
+/* Using UIColor to make each cell display a different, random color. */
+
+/*
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.colorArray.count;
@@ -91,6 +94,10 @@
     return cell;
 }
 
+/*Setting the index
+  Remember the content offsets of each cell and displaying it to reset when the content is shown again. */
+
+/*
 -(void)tableView:(UITableView *)tableView willDisplayCell:(IngredientsViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [cell setCollectionViewDataSourceDelegate:self indexPath:indexPath];
@@ -109,6 +116,14 @@
 
 #pragma mark - UICollectionViewDataSource Methods
 
+/* Implement UICollectionViewDataSource methods
+ 
+    We are using the index property of collection view to determine the appropriate model to use. 
+    
+    When the view controller doesn't retain references to any of the collection views, they belong to the UITableViewCell's. They will be reused and will save memory.
+ */
+
+/*
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
     NSArray *collectionViewArray = self.colorArray[[(AFIndexedCollectionView *)collectionView indexPath].row];
@@ -124,6 +139,9 @@
     
     return cell;
 }
+/**/
+
+/*
 
 #pragma mark - UIScrollViewDelegate Methods
 
@@ -139,3 +157,4 @@
 }
 
 @end
+*/

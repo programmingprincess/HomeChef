@@ -5,7 +5,7 @@
 //  Created by Jiaqi Wu on 1/23/16.
 //  Code obtained from https://github.com/AshFurrow/AFTabledCollectionView by https://ashfurrow.com/blog/putting-a-uicollectionview-in-a-uitableviewcell/
 //
-
+/*
 #import "IngredientsViewCell.h"
 
 @implementation AFIndexedCollectionView
@@ -13,7 +13,11 @@
 @end
 
 @implementation IngredientsViewCell
+ /* Adding collection view to the cell.
+  * We will create an instance of IngredientsViewCell using a standard UICollectionViewFlowLayout in the cell's initializer.
+  */
 
+/*
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     if (!(self = [super initWithStyle:style reuseIdentifier:reuseIdentifier])) return nil;
@@ -31,6 +35,10 @@
     return self;
 }
 
+/* Adjusting the side of the collection view to fill cell in layoutSubViews
+ */
+
+/*
 -(void)layoutSubviews
 {
     [super layoutSubviews];
@@ -48,3 +56,4 @@
 }
 
 @end
+*/
