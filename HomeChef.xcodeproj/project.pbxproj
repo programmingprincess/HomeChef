@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		955D5FEB68A39410B83BEE80 /* Pods_HomeChef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB1E46E8DB2102B69B29CD /* Pods_HomeChef.framework */; };
 		A9B425541C533EAC00BE55F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B425531C533EAC00BE55F9 /* AppDelegate.swift */; };
 		A9B425561C533EAC00BE55F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B425551C533EAC00BE55F9 /* ViewController.swift */; };
 		A9B425591C533EAC00BE55F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B425571C533EAC00BE55F9 /* Main.storyboard */; };
 		A9B4255B1C533EAC00BE55F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B4255A1C533EAC00BE55F9 /* Images.xcassets */; };
 		A9B4255E1C533EAC00BE55F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9B4255C1C533EAC00BE55F9 /* LaunchScreen.xib */; };
-		A9B4256A1C533EAC00BE55F9 /* HomeChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B425691C533EAC00BE55F9 /* HomeChefTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A47071442C23C5BBC394E50 /* Pods-HomeChef.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeChef.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeChef/Pods-HomeChef.debug.xcconfig"; sourceTree = "<group>"; };
+		A6FB1E46E8DB2102B69B29CD /* Pods_HomeChef.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeChef.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B4254E1C533EAC00BE55F9 /* HomeChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B425521C533EAC00BE55F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9B425531C533EAC00BE55F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,8 +36,7 @@
 		A9B4255A1C533EAC00BE55F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A9B4255D1C533EAC00BE55F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A9B425631C533EAC00BE55F9 /* HomeChefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeChefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9B425681C533EAC00BE55F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9B425691C533EAC00BE55F9 /* HomeChefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeChefTests.swift; sourceTree = "<group>"; };
+		FAAEDEE1AFC37A3EFBDF8E07 /* Pods-HomeChef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeChef.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeChef/Pods-HomeChef.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955D5FEB68A39410B83BEE80 /* Pods_HomeChef.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +58,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42110D471D3AC8C5EB8601C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A47071442C23C5BBC394E50 /* Pods-HomeChef.debug.xcconfig */,
+				FAAEDEE1AFC37A3EFBDF8E07 /* Pods-HomeChef.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A9B425451C533EAC00BE55F9 = {
 			isa = PBXGroup;
 			children = (
 				A9B425501C533EAC00BE55F9 /* HomeChef */,
-				A9B425661C533EAC00BE55F9 /* HomeChefTests */,
 				A9B4254F1C533EAC00BE55F9 /* Products */,
+				42110D471D3AC8C5EB8601C3 /* Pods */,
+				C40B51B00C9141BAB6E97294 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,10 +89,10 @@
 		A9B425501C533EAC00BE55F9 /* HomeChef */ = {
 			isa = PBXGroup;
 			children = (
-				A9B425531C533EAC00BE55F9 /* AppDelegate.swift */,
-				A9B425551C533EAC00BE55F9 /* ViewController.swift */,
+				ECFBFE171C5386FF00AB0C19 /* View Controllers */,
 				A9B425571C533EAC00BE55F9 /* Main.storyboard */,
 				A9B4255A1C533EAC00BE55F9 /* Images.xcassets */,
+				A9B425531C533EAC00BE55F9 /* AppDelegate.swift */,
 				A9B4255C1C533EAC00BE55F9 /* LaunchScreen.xib */,
 				A9B425511C533EAC00BE55F9 /* Supporting Files */,
 			);
@@ -95,21 +107,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A9B425661C533EAC00BE55F9 /* HomeChefTests */ = {
+		C40B51B00C9141BAB6E97294 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A9B425691C533EAC00BE55F9 /* HomeChefTests.swift */,
-				A9B425671C533EAC00BE55F9 /* Supporting Files */,
+				A6FB1E46E8DB2102B69B29CD /* Pods_HomeChef.framework */,
 			);
-			path = HomeChefTests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A9B425671C533EAC00BE55F9 /* Supporting Files */ = {
+		ECFBFE171C5386FF00AB0C19 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A9B425681C533EAC00BE55F9 /* Info.plist */,
+				A9B425551C533EAC00BE55F9 /* ViewController.swift */,
 			);
-			name = "Supporting Files";
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9B4256D1C533EAC00BE55F9 /* Build configuration list for PBXNativeTarget "HomeChef" */;
 			buildPhases = (
+				126CFA5CAD1C08053112B75A /* Check Pods Manifest.lock */,
 				A9B4254A1C533EAC00BE55F9 /* Sources */,
 				A9B4254B1C533EAC00BE55F9 /* Frameworks */,
 				A9B4254C1C533EAC00BE55F9 /* Resources */,
+				8110431E673EE4686DF3E949 /* Embed Pods Frameworks */,
+				DDE0175B561F5F06847C5CEF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +170,7 @@
 		A9B425461C533EAC00BE55F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Jiaqi Wu";
 				TargetAttributes = {
@@ -207,6 +222,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		126CFA5CAD1C08053112B75A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8110431E673EE4686DF3E949 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeChef/Pods-HomeChef-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE0175B561F5F06847C5CEF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeChef/Pods-HomeChef-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9B4254A1C533EAC00BE55F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -221,7 +284,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9B4256A1C533EAC00BE55F9 /* HomeChefTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +400,7 @@
 		};
 		A9B4256E1C533EAC00BE55F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A47071442C23C5BBC394E50 /* Pods-HomeChef.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HomeChef/Info.plist;
@@ -348,6 +411,7 @@
 		};
 		A9B4256F1C533EAC00BE55F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAAEDEE1AFC37A3EFBDF8E07 /* Pods-HomeChef.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HomeChef/Info.plist;
@@ -409,6 +473,7 @@
 				A9B4256F1C533EAC00BE55F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9B425701C533EAC00BE55F9 /* Build configuration list for PBXNativeTarget "HomeChefTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +482,7 @@
 				A9B425721C533EAC00BE55F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
