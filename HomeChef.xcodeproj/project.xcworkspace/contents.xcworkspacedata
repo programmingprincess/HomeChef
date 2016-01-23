@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../HomeChef/IngredientsViewCell.h">
+   </FileRef>
+   <FileRef
+      location = "group:../HomeChef/IngredientsViewCell.m">
+   </FileRef>
+   <FileRef
+      location = "group:../IngredientsInterface.h">
+   </FileRef>
+   <FileRef
+      location = "group:../IngredientsInterface.m">
+   </FileRef>
+   <FileRef
       location = "self:HomeChef.xcodeproj">
    </FileRef>
 </Workspace>

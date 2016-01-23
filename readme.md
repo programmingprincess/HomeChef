@@ -1,15 +1,18 @@
 # HackArizona 2016 *Homechef*
-Team:
-Jiaqi Wu 
-Anyssa Iwamoto 
-Sarah ...
-Akhila Murella 
+Team: <br>
+Jiaqi Wu <br>
+Anyssa Iwamoto  <br>
+Sarah ... <br>
+Akhila Murella <br> 
+Julio ... 
 
 **Homechef** incorporates a recipe database that allows users to search by ingredients and allergies. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016] [Team ASU]
+
+    Some code obtained from: https://github.com/AshFurrow/AFTabledCollectionView, as indicated in comments.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

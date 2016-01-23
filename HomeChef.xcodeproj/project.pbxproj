@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9B425541C533EAC00BE55F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B425531C533EAC00BE55F9 /* AppDelegate.swift */; };
+		A958FA0C1C53ACDE00C694E6 /* IngredientsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A958FA091C53ACDE00C694E6 /* IngredientsViewCell.m */; };
+		A958FA0D1C53ACDE00C694E6 /* IngredientsInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = A958FA0B1C53ACDE00C694E6 /* IngredientsInterface.m */; };
+		A9596CAB1C53A7670088E485 /* IngredientsControllerC.m in Sources */ = {isa = PBXBuildFile; fileRef = A9596CAA1C53A7670088E485 /* IngredientsControllerC.m */; };
 		A9B425561C533EAC00BE55F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B425551C533EAC00BE55F9 /* ViewController.swift */; };
 		A9B425591C533EAC00BE55F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B425571C533EAC00BE55F9 /* Main.storyboard */; };
 		A9B4255B1C533EAC00BE55F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B4255A1C533EAC00BE55F9 /* Images.xcassets */; };
 		A9B4255E1C533EAC00BE55F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9B4255C1C533EAC00BE55F9 /* LaunchScreen.xib */; };
 		A9B4256A1C533EAC00BE55F9 /* HomeChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B425691C533EAC00BE55F9 /* HomeChefTests.swift */; };
 		A9B425741C53615400BE55F9 /* IngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B425731C53615400BE55F9 /* IngredientsViewController.swift */; };
+		A9BA6ABE1C53AA2200E79B97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BA6ABD1C53AA2200E79B97 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +30,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A958FA081C53ACDE00C694E6 /* IngredientsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientsViewCell.h; sourceTree = "<group>"; };
+		A958FA091C53ACDE00C694E6 /* IngredientsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsViewCell.m; sourceTree = "<group>"; };
+		A958FA0A1C53ACDE00C694E6 /* IngredientsInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientsInterface.h; sourceTree = "<group>"; };
+		A958FA0B1C53ACDE00C694E6 /* IngredientsInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsInterface.m; sourceTree = "<group>"; };
+		A9596CAA1C53A7670088E485 /* IngredientsControllerC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientsControllerC.m; sourceTree = "<group>"; };
 		A9B4254E1C533EAC00BE55F9 /* HomeChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B425521C533EAC00BE55F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9B425531C533EAC00BE55F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9B425551C533EAC00BE55F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9B425581C533EAC00BE55F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9B4255A1C533EAC00BE55F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -38,6 +45,7 @@
 		A9B425681C533EAC00BE55F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9B425691C533EAC00BE55F9 /* HomeChefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeChefTests.swift; sourceTree = "<group>"; };
 		A9B425731C53615400BE55F9 /* IngredientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsViewController.swift; sourceTree = "<group>"; };
+		A9BA6ABD1C53AA2200E79B97 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +87,15 @@
 		A9B425501C533EAC00BE55F9 /* HomeChef */ = {
 			isa = PBXGroup;
 			children = (
-				A9B425531C533EAC00BE55F9 /* AppDelegate.swift */,
+				A9BA6ABD1C53AA2200E79B97 /* AppDelegate.swift */,
+				A9596CAA1C53A7670088E485 /* IngredientsControllerC.m */,
 				A9B425551C533EAC00BE55F9 /* ViewController.swift */,
 				A9B425571C533EAC00BE55F9 /* Main.storyboard */,
 				A9B425731C53615400BE55F9 /* IngredientsViewController.swift */,
+				A958FA081C53ACDE00C694E6 /* IngredientsViewCell.h */,
+				A958FA091C53ACDE00C694E6 /* IngredientsViewCell.m */,
+				A958FA0A1C53ACDE00C694E6 /* IngredientsInterface.h */,
+				A958FA0B1C53ACDE00C694E6 /* IngredientsInterface.m */,
 				A9B4255A1C533EAC00BE55F9 /* Images.xcassets */,
 				A9B4255C1C533EAC00BE55F9 /* LaunchScreen.xib */,
 				A9B425511C533EAC00BE55F9 /* Supporting Files */,
@@ -215,9 +228,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A958FA0D1C53ACDE00C694E6 /* IngredientsInterface.m in Sources */,
+				A9BA6ABE1C53AA2200E79B97 /* AppDelegate.swift in Sources */,
 				A9B425741C53615400BE55F9 /* IngredientsViewController.swift in Sources */,
 				A9B425561C533EAC00BE55F9 /* ViewController.swift in Sources */,
-				A9B425541C533EAC00BE55F9 /* AppDelegate.swift in Sources */,
+				A9596CAB1C53A7670088E485 /* IngredientsControllerC.m in Sources */,
+				A958FA0C1C53ACDE00C694E6 /* IngredientsViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +429,7 @@
 				A9B4256F1C533EAC00BE55F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9B425701C533EAC00BE55F9 /* Build configuration list for PBXNativeTarget "HomeChefTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +438,7 @@
 				A9B425721C533EAC00BE55F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

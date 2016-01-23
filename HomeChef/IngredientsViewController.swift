@@ -1,3 +1,4 @@
+/*
 //
 //  IngredientsViewController.swift
 //  HomeChef
@@ -14,6 +15,9 @@ class IngredientsViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        //Copied code from github - jw 
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,5 +35,6 @@ class IngredientsViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
+
+*/
