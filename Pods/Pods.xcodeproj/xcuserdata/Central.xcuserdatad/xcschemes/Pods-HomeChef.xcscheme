@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6EA8347BE06221073F1CE4A0'
+               BlueprintIdentifier = 'D56071C4DF88F4EA7E951EA4'
                BlueprintName = 'Pods-HomeChef'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_HomeChef.framework'>

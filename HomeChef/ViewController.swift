@@ -14,45 +14,47 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var beginButton: UIButton!
     @IBOutlet weak var meatsButton: UIButton!
-    @IBOutlet weak var vegetablesButton: UIButton!
-    @IBOutlet weak var fruitsButton: UIButton!
-    @IBOutlet weak var pastaButton: UIButton!
-
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Parameters
         let ingredients = "bread,eggs,milk"
         let limitLicense = false
-        let number = 2
+        let number = 4
         let ranking = 1
         
         let url = NSURL(string: "https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/findByIngredients?ingredients=\(ingredients)&limitLicense=\(limitLicense)&number=\(number)&ranking=\(ranking)")
+        
         let headers = [
             "X-Mashape-Key": "NHDnizUDH5mshbK6fNDHtFJAQRpDp1zYm3FjsnAVFgzGtVfsXi",
             "Accept": "application/json"
         ]
         
-        // Request Handling
+        // API Request
         Alamofire.request(.GET, url!, headers: headers, encoding: .JSON).responseJSON {
-            // Response Handling
             response in switch response.result {
-                case .Success:
-                    let json = JSON(response.result.value!)
-                    print("JSON: \(json)")
-                    print("Selected JSON: \(json[0])")
-                case .Failure(let error):
-                    print("Request failed with error: \(error)")
+                
+                //API Response
+            case .Success:
+                let json = JSON(response.result.value!)
+                //print("JSON: \(json)")
+                print((json[0]))
+                
+            case .Failure:
+                print("Request failed with error:")
             }
         }
     }
 
-    @IBAction func category_OnClick(sender: AnyObject) {
         
-    }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    @IBAction func category_onTap(sender: UIButton) {
+    
     }
 }
 
